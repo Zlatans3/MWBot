@@ -2,9 +2,11 @@
   "name": "mwbot",
   "version": "1.0.0",
   "description": "Zlatan",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
   },
   "repository": {
     "type": "git",
@@ -12,11 +14,13 @@
   },
   "author": "Zlatan",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Zlatans3/MWBot/issues"
   },
   "homepage": "https://github.com/Zlatans3/MWBot#readme",
   "dependencies": {
-    "discord.js": "^12.5.3"
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0"
   }
 }
