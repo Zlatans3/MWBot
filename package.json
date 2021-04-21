@@ -1,0 +1,22 @@
+{
+  "name": "mwbot",
+  "version": "1.0.0",
+  "description": "Zlatan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zlatans3/MWBot.git"
+  },
+  "author": "Zlatan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zlatans3/MWBot/issues"
+  },
+  "homepage": "https://github.com/Zlatans3/MWBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
